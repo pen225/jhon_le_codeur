@@ -1,0 +1,136 @@
+/* General */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+h1{
+    font-family: 'crete Round', serif;
+    font-size: 45px;
+    color: #444;
+}
+
+h2{
+    color: #444;
+    font-size: 55px;
+}
+
+h4{
+    font-size: 24px;
+    color: #444;
+}
+
+p{
+    line-height: 20px;
+    color: #444;
+}
+
+.wrapper{
+    width: 940px;
+    margin: 0px auto;
+    padding: 0px 10px;
+}
+
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #444;
+}
+
+.orange{
+    color: #FF7a00;
+}
+
+
+/* Header */
+header{
+    height: 120px;
+}
+
+header h1{
+    float: left;
+    margin-top: 32px;
+}
+
+header nav{
+    float: right;
+    margin-top: 50px;
+}
+header nav ul li{
+    display: inline-block;
+    float: left;
+}
+header nav ul li a{
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+/* Main_image */
+#main_image{
+    height: 580px;
+    background: url('/IMAGES/main.jpg');
+}
+#main_image h2{
+    font-weight: normal;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 150px 0px 40px 0px;
+    margin-bottom: 20px;
+}
+.button1{
+    display: block;
+    width: 120px;
+    height: 50px;
+    background: #FF7a00;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    margin: 0px auto;
+    line-height: 50px;
+    border-radius: 3px;
+}
+.button1:hover{
+    background: #02b8dd;
+}
+
+/* STEPS */
+#steps ul{
+    margin: 80px 0px;
+}
+#steps ul li{
+    width: 300px;
+    float: left;
+    padding-top: 140px;
+    text-align: center;
+    margin-right: 10px;
+}
+#steps h4{
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+#steps p{
+    margin-bottom: 20px;
+}
+.steps1{
+    background: url('/IMAGES/plan.png');
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+.steps2{
+    background: url('/IMAGES/org.png');
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+.steps3{
+    background: url('/IMAGES/voy.png');
+    background-repeat: no-repeat;
+    background-position: top center;
+}
